@@ -1,0 +1,176 @@
+body{
+    background-size: cover;
+}
+.weather{
+    color: #FF725E;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.container{
+    margin-bottom: 20px;
+}
+.first-div{
+    margin-left: 70px !important;
+}
+.second-div{
+    padding: 100px !important;
+    margin-left: -150px !important;
+    border-color: #FF725E !important;
+    height:80vh;
+    margin-left: -70px !important;
+}
+.first-head{
+    font-size: 70px !important;
+    font-weight: bolder;
+}
+.second-head{
+    font-size: 50px !important;
+}
+.btn{
+    background-color: #FF725E;
+    color: #FFFFFF;
+    padding: 10px !important;
+    width: 50% !important;
+}
+#logo{
+    margin-left: 80px !important;
+}
+.foot-head{
+    font-weight: bolder;
+    font-size: 36px !important;
+}
+.foot-title{
+    font-weight: bolder;
+}
+.info{
+    font-weight: bolder;
+}
+.info-head{
+    color: #FF725E;
+}
+
+@media screen and (max-width:884px) {
+    .container{
+        display: grid !important;
+    }
+    .illustration{
+        width: 100% !important;
+        margin-top: 70px;
+    }
+    .first-div{
+        margin-top: -90px !important;
+        margin-left: 80px !important;
+        width: 70% !important;
+    }
+    .second-div{
+        font-size: 20px !important;
+        width: 70% !important;
+        height: 46vh;
+        margin-left: 110px !important;
+    }
+    .toggler{
+        margin-right: 100px !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .second-div{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .second-div{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:428px) {
+   
+    #logo{
+        margin-left: 5px !important;
+        font-size: 15px;
+    }
+    .toggler{
+        margin-right: 0px !important;
+    }
+    .weather{
+        font-size: 25px;
+    }
+    .container{
+        display: grid !important;
+    }
+    .footer-div{
+        display: grid !important;
+    }
+    .foot-div-1{
+        width: 70% !important;
+        justify-self: center;
+    }
+    .foot-div-2{
+        width: 70% !important;
+        justify-self: center;
+    }
+    .foot-div-3{
+        width: 70% !important;
+        justify-self: center;
+    }
+
+    .illustration{
+        visibility: visible;
+        margin-left: 20px !important;
+        width: 100% !important;
+    }
+    .first-div{
+        width: 100%;
+        margin-left: 35px !important;
+        margin-top: -80px !important;
+        margin-bottom: 20px;
+    }
+    .second-div{
+        font-size: 10px;
+        margin-left: 15px !important;
+        width: 90% !important;
+        height: 47vh;
+        padding: 60px !important;
+    }
+    .first-head{
+        font-size: 50px !important;
+    }
+    .second-head{
+        font-size: 30px !important;
+    }
+    #disp{
+        margin-left: -70px !important;
+    }
+} 
+
+@media screen and (max-width:390px) {
+   .illustration{
+    margin-left: 20px !important;
+    margin-top: 90px !important;
+   }
+   .second-div{
+    margin-top: 40px !important;
+    height: 50vh;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    .illustration{
+        margin-left: 5px !important;
+    }
+    .first-head{
+        font-size: 30px !important;
+    }
+    .second-div{
+        height: 58vh;
+    }
+    .second-head{
+        font-size: 23px !important;
+    }
+    .first-para{
+        width: 145% !important;
+        font-size: 15px;
+    }
+}

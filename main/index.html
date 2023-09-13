@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="images/scr-ico.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg shadow-0">
+        
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <div>
+                <h2 class="logo"><a class="nav-link active" aria-current="page" href="#"><span class="weather">Weather</span> Channel</a></h2>
+            </div>
+            <!-- Toggle button -->
+            <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    
+    </nav>
+
+    <div class="w-50 p-5 search-div">
+
+        <input type="text" class="form-control rounded-pill p-3" placeholder="Weather in Your city" id="userInput">
+        <button class="btn btn-primary w-50 m-2 rounded-pill p-3 search-btn" onclick="displayWeather()">Search</button>
+
+    </div>
+
+        <div id="display" class="main"></div>
+
+
+
+
+    <script src="script.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+body{
+    background: url("images/pexels-aleksandar-pasaric-325185.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .main{
+     margin-top: 50px !important;
+     margin-left: 50px;
+     width: 60% !important;
+ }
+ .shadow{
+     justify-content: center !important;
+ }
+ .inner-main{
+     /* color: #FFFFFF; */
+     color: black;
+     margin-left: 400px !important;
+     width: 50% !important;
+ }
+ 
+ .weather{
+     color: #FF725E;
+     font-weight: bolder;
+     font-size: 40px;
+ }
+ .search-div{
+     margin-left: 350px;
+ }
+ .search-btn{
+     margin-left: 130px !important;
+     background-color: #FF725E !important;
+ }
+ .logo {
+     margin-left: 100px !important;
+ }
+ 
+ @media screen and (max-width: 884px) {
+     #userInput{
+         margin-left: -110px !important;
+     }
+     .search-btn{
+         margin-left: -20px !important;
+     }
+     .inner-main{
+         margin-left: 150px !important;
+         width: 100% !important;
+     }
+     .logo{
+         margin-left: 0px !important;
+     }
+ }
+ 
+ @media screen and (max-width:834px) {
+     #userInput{
+         margin-left: -150px !important;
+     }
+     .search-btn{
+         margin-left: -20% !important;
+     }
+     .main{
+         margin-left: -90px !important;
+     }
+     .inner-main{
+         margin-left: 260px !important;
+         width: 100% !important;
+     }
+ }
+ 
+ @media screen and (max-width: 428px) {
+     body{
+         background-size: 350% !important;
+         background-position: contain;
+         background-repeat: no-repeat;
+     }
+     .main{
+         width: 60% !important;
+     }
+     .search-div{
+         margin-left: 0px !important;
+         width: 100% !important;
+     }
+     .search-btn{
+         margin-left: 90px !important;
+     }
+     .inner-main{
+         margin-left: 150px !important;
+         width: 120% !important;
+     }
+     #userInput{
+         margin-left: 10px !important;
+     }
+ }
+ 
+ @media screen and (max-width: 320px) {
+     .logo{
+         font-size: 20px !important;
+     }
+     #userInput{
+         padding: 10px !important;
+     }
+     .search-btn{
+         margin-left: 60px !important;
+         padding: 10px !important;
+     }
+     .main{
+         width: 80% !important;
+         margin-left: 0px;
+         margin-top: -30px !important;
+     }
+     .inner-main{
+         margin-left: 130px !important;
+         width: 95% !important;
+     }
+ }
+ 
+ @media screen and (max-width: 162px) {
+     body{
+         background-position: center;
+         background-size: cover !important;
+     }
+     .logo{
+         width: 1% !important;
+         font-size: 12px !important;
+     }
+     .main{
+         width: 5% !important;
+     }
+     .inner-main{
+         width: 10% !important;
+     }
+     #userInput{
+         width: 190% !important;
+         margin-left: -30px !important;
+         padding: 5px !important;
+     }
+     .search-btn{
+         width: 190% !important;
+         margin-left: -30px !important;
+         padding: 5px !important;
+     }
+     .main{
+         width: 300% !important;
+         font-size: 4px !important;
+         margin-left: -30px !important;
+     }
+     .inner-main{
+         width: 30% !important;
+         font-size: 10px !important;
+         margin-left: 40px !important;
+     }
+     .cloud{
+         font-size: 90px !important;
+     }
+ }

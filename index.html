@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="shortcut icon" href="images/scr-ico.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="locatePosition()">
+
+    <nav class="navbar navbar-expand-lg shadow-0">
+
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <div>
+                <h2 id="logo"><a class="nav-link active" aria-current="page" href="#"><span class="weather">Weather</span>
+                        Channel</a></h2>
+
+                        <!-- <img src="images/Your_paragraph_text-removebg-preview.png" alt="" id="logo"> -->
+            </div>
+            <!-- Toggle button -->
+            <button class="navbar-toggler ms-auto toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+    </nav>
+
+    <hr>
+
+    <div id="disp"></div>
+
+
+
+    <div class="container d-flex">
+        <div class="w-50 first-div">
+            <img src="images/Weather.gif" alt="" class="illustration">
+        </div>
+
+        <div class="second-div border border-2 rounded-circle">
+            <h1 class="text-dark first-head animate__animated animate__pulse weather-head">Weather</h1>
+            <h2 class="second-head">Forecast</h2>
+            <p class="first-para">Discover the weather Anywhere</p>
+            <button class="btn" onclick="goTo()">Discover</button>
+        </div>
+    </div>
+
+    <div class="footer text-center">
+        <h2><span class="foot-head">Changes</span> Weather</h2>
+        <hr class="w-100">
+        <div class="d-flex gap-5 justify-content-center mt-5 footer-div">
+            <div class="w-25 foot-div-1">
+                <h5><span class="foot-title">Climat</span> Control</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus recusandae obcaecati dolorem rem possimus distinctio placeat. Exercitationem, atque quisquam dolorem quia, sequi repellendus ex natus repudiandae voluptatem qui quos sit.</p>
+            </div>
+
+            <div class="w-25 foot-div-2">
+                <h5><span class="foot-title">Weather</span> Changes</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto itaque debitis assumenda voluptatibus ea, aspernatur obcaecati autem, sequi aperiam doloribus odio incidunt minus ex at eius accusantium minima unde.</p>
+            </div>
+
+            <div class="w-25 foot-div-3">
+                <h5><span class="foot-title">Weather</span> Map</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident in, odio placeat possimus molestiae voluptas. Accusamus ratione pariatur facere voluptates, expedita perferendis maiores, cumque ea repudiandae iure perspiciatis, cupiditate quo!</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+</body>
+
+</html>
